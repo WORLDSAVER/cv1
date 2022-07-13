@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <!-- <ol>
+      <li>Phone : +91 - 9910545444</li>
+      <br>
+      <li>Mail : pareekhridyansh@gmail.com</li>
+
+    </ol> -->
+    <form class = "" action = "mailto:pareekhridyansh@gmail.com" method = "post" enctype = "text/plain">
+      <label>Your Name</label>
+      <input type = "text" name = "Your Name" value = "">
+      <br><br>
+      <label>Your Email</label>
+      <input type = "email" name = "Your Email" value = "">
+      <br><br>
+      <label>Your Message</label>
+      <textarea name = "Your Message" rows = "10" cols = "30"></textarea>
+      <br><br>
+      <input type = "submit" name = "" value = "submit">
+    </form>
+
+    <!--action attribute tells what to do mailto:address opens up the mail client and method="post" posts
+  all the data in the form to it and the recievers address is the address we mentioned, ennctype stands
+for encoding type and it basically tells that all the data we will send will be plain text and due to
+this attribute the data will be readable and will not have % . etc, input tag has same tag name but just
+changing one of its attributes changes whole input, the name is shown on the email, value is shown on the
+input ex value = "submit" for submit button will mean that submit will be written, textarea tag is used
+for writing paras, we can give name, we give rows and cols, these are the values that are initially set
+for the textarea and these can be modified by toggling the switch-->
+  </body>
+</html>
